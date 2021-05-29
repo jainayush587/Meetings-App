@@ -1,0 +1,70 @@
+.date-section {
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.date--dd-mm-yyyy {
+  font-size: 20px;
+  font-weight: 550;
+  margin-bottom: 0.3em;
+}
+
+.day-week {
+  color: #747474;
+}
+
+.time-block {
+  position: relative;
+  max-width: 100%;
+}
+
+.hh-block {
+  position: relative;
+  display: flex;
+}
+
+.hour-block {
+  position: absolute;
+  right: 100%;
+  font-size: 12px;
+  padding-right: 7px;
+}
+
+.rectangle-block {
+  display: inline-block;
+  flex-grow: 1;
+  background-color: #63bccb;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+}
+
+.calender-meeting {
+  border: 1px solid #d3d3d3;
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 100%;
+  margin: 0 10px;
+  opacity: 0.8;
+}
+
+.meeting-block .meeting-title {
+  font-size: 11px;
+  font-weight: 550;
+}
+
+.meeting-block hr {
+  margin: 0;
+}
+
+.meeting-attendees {
+  font-size: 11px;
+}

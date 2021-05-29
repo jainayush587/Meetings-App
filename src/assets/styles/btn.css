@@ -1,0 +1,32 @@
+.btn {
+  margin: 1em 0;
+  height: 3em;
+  width: 100%;
+  position: relative;
+}
+
+.btn button:hover,
+.btn button:focus {
+  cursor: pointer;
+  transform: skew(-10deg);
+}
+
+/*card buttons */
+.excuse-btn {
+  width: 135px;
+  padding: 7px 0;
+  border-radius: 4px;
+  border: none;
+  background: crimson;
+  color: #fff;
+}
+
+.add-mem button {
+  height: 33px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #16a2b8;
+  border: none;
+  color: #fff;
+}

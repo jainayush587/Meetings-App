@@ -1,0 +1,79 @@
+.team-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  margin-bottom: 1em;
+}
+
+.team-view-info {
+  grid-column: 1 / -1;
+  margin-top: 0.5em;
+  font-weight: 550;
+  color: #59626a;
+}
+
+.teams-card {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-radius: 0.25em;
+  padding: 0.25em 1em 0.5em 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-header {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+.team-header .team-header-title {
+  font-size: 19px;
+  font-weight: 550;
+}
+
+.team-header .team-header-tag {
+  font-weight: 550;
+  padding: 0.5em 0;
+}
+
+.team-header .team-details {
+  color: #59626a; /*757c84*/
+}
+
+.team-mem {
+  margin: 0.5em 0;
+}
+
+.team-mem .team-members-title {
+  font-weight: 550;
+}
+
+.teams-card .add-mem {
+  margin-bottom: 0.5em;
+}
+
+.teams-card .add-mem select {
+  padding: 5px;
+  width: 150px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.teams-card .teams-card-add {
+  width: 100%;
+  height: 100%;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 30%;
+}
+
+@media screen and (max-width: 684px) {
+  .teams-card {
+    margin: 0;
+  }
+
+  .teams-card .teams-card-add {
+    padding-top: 0;
+  }
+}

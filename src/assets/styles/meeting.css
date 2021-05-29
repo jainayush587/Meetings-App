@@ -1,0 +1,191 @@
+.meeting-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meeting-section input[type="radio"] {
+  display: none;
+}
+
+.meeting-tab-view {
+  padding: 0.7em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #d3d3d3;
+  color: #2189ce;
+}
+
+.search-add-meeting {
+  background-color: #63bccb;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-add-meeting h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.search-form label {
+  margin: 5px 0;
+}
+
+.search-form select {
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: #d3d3d3;
+}
+
+.search-form textarea {
+  resize: none;
+  border-radius: 3px;
+  padding: 10px;
+  border: #d3d3d3;
+}
+
+.search-submit-btn {
+  height: 2em;
+}
+
+.search-submit-btn button,
+.add-meeting-btn button {
+  border-radius: 3px;
+  border: none;
+  padding: 7px 10px;
+  background-color: #16a2b8;
+  color: #fff;
+}
+
+.meeting-match {
+  width: 100%;
+}
+
+.meeting-cards {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.meeting-cards .date-time {
+  margin: 5px 0;
+}
+
+.meeting-cards .date-time .meeting-cards-date {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.meeting-cards .meeting-title {
+  margin: 10px 0;
+}
+
+.meeting-attendees-title {
+  font-weight: 600;
+  margin: 7px 0;
+}
+
+.meeting-cards .add-mem {
+  margin: 10px 0;
+}
+
+.meeting-cards .add-mem select {
+  padding: 5px;
+  width: 150px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-form label {
+  margin: 5px 0;
+}
+
+.add-form select {
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: #d3d3d3;
+}
+
+.add-form textarea {
+  border-radius: 3px;
+  padding: 10px;
+  border: #d3d3d3;
+}
+
+.add-select-date {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.add-select-date input[type="date"] {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 7px 10px;
+}
+
+.hh-mm-div label {
+  display: block;
+}
+
+.add-description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.attendees-email-adding {
+  display: flex;
+  flex-direction: column;
+}
+
+.attendees-email-adding input[type="text"] {
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 7px 10px;
+}
+
+.attendees-email-adding span {
+  font-size: 11px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.tab-view {
+  width: 100%;
+  background-color: #fff;
+  order: 1;
+  display: none;
+}
+
+.search-add-meeting hr {
+  background-color: #168c9e;
+}
+
+.meeting-section input[type="radio"]:checked + .meeting-tab-view + .tab-view {
+  display: block;
+}
+
+.meeting-section input[type="radio"]:checked + label {
+  border: 1px solid #d3d3d3;
+  border-bottom: none;
+  color: #000;
+}
