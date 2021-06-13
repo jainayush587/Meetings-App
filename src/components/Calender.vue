@@ -10,7 +10,7 @@
                 <span class="day-week">{{moment().format('dddd')}}</span>
             </div>
             <div class="date-picker">
-                <date-picker v-model="date" format="YYYY-MM-DD" :value="date"></date-picker>
+                <date-picker v-model="date" format="YYYY-MM-DD" :value="new Date()"></date-picker>
             </div>
         </div>
         <div class="time-blocks">

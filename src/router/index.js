@@ -5,6 +5,8 @@ import Register from '@/components/Register';
 import Calender from '@/components/Calender';
 import Meetings from '@/components/Meetings';
 import PageNotFound from '@/components/PageNotFound';
+import foo from '@/components/foo';
+import Skills from '@/components/Skills';
 import store from '@/store';
 
 Vue.use(Router);
@@ -37,6 +39,19 @@ export const router = new Router({
       meta: {
         requiresAuth: true,
       },
+    },
+    {
+      path: '/foo',
+      name: 'foo',
+      component: foo,
+      meta: {
+        requiresAuth: true,
+      },
+    },
+    {
+      path: '/skills',
+      name: 'Skills',
+      component: Skills
     },
     {
       path: '*',
